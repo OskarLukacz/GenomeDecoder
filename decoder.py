@@ -87,7 +87,7 @@ def main():
     global raw_genome
     lines = []
 
-    with open('data.txt', 'rt') as data:
+    with open('fulldata.txt', 'rt') as data:
         for line in data:
             words = line.split()
             lines.append(words)
